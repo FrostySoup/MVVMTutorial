@@ -1,0 +1,14 @@
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\bin\Debug\MVVMTutorial.exe.config
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\bin\Debug\MVVMTutorial.exe
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\bin\Debug\MVVMTutorial.pdb
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.csprojResolveAssemblyReference.cache
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MainWindow.g.cs
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\App.g.cs
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial_MarkupCompile.cache
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial_MarkupCompile.lref
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MainWindow.baml
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.g.resources
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.Properties.Resources.resources
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.csproj.GenerateResource.Cache
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.exe
+D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\MVVMTutorial.pdb
