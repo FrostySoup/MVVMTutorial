@@ -5,10 +5,24 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MVVMTutorial"
         mc:Ignorable="d"
-        Title="MainWindow" Height="300" Width="300">
-    <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="24" Margin="0,19,0,0">
-        <Label>Customer name:</Label>
-        <TextBox Width="136" Text="{Binding Customer.Name, UpdateSourceTrigger=PropertyChanged}" />
-        <Button Command="{Binding UpdateCommand}">Update</Button>
+        Title="MainWindow" Height="400" Width="500">
+
+   
+
+    <StackPanel Orientation="Vertical">
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="24" Margin="0,19,0,0">
+            <Label>Customer name:</Label>
+            <TextBox Width="136" Text="{Binding Customer.Name, UpdateSourceTrigger=PropertyChanged, ValidatesOnDataErrors=True}" />
+            <Button Command="{Binding UpdateCommand}">Update</Button>
+        </StackPanel>
+
+        <StackPanel DockPanel.Dock="Left" Margin="0,10,0,0">
+            <Button Content="Home Page" Command="{Binding Path=LoadHomePageCommand}" />
+            <Button Style="{StaticResource BaseButtonStyle}" Content="Settings Page" Command="{Binding Path=LoadSettingsPageCommand}"/>
+            <Button Content="Play Page" Command="{Binding Path=LoadPlayPageCommand}"/>
+        </StackPanel>
+        
+        <ContentControl Content="{Binding Path = ViewModel}" />
+        
     </StackPanel>
 </Window>

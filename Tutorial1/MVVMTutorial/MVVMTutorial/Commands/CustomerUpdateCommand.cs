@@ -1,16 +1,17 @@
 ﻿namespace MVVMTutorial.Commands
 {
+    using System;
     using System.Windows.Input;
     using ViewModels;
 
     internal class CustomerUpdateCommand : ICommand
     {
+        private CustomerViewModel viewModel;
+
         public CustomerUpdateCommand(CustomerViewModel viewModel)
         {
-            _ViewModel = viewModel;
-        }
-
-        private CustomerViewModel _ViewModel;
+            this.viewModel = viewModel;
+        }       
 
         #region ICommand Members
 
@@ -22,12 +23,12 @@
 
         public bool CanExecute(object parameter)
         {
-            return _ViewModel.CanUpdate;
+            return String.IsNullOrWhiteSpace(viewModel.Customer.Error);
         }
 
         public void Execute(object parameter)
         {
-            _ViewModel.SaveChanges();
+            viewModel.SaveChanges();
         }
 
         #endregion

@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\
+E:\TestProjects\MVVMTutorial-master\Tutorial1\MVVMTutorial\MVVMTutorial\obj\Debug\
 MVVMTutorial
 none
 false
 DEBUG;TRACE
-D:\xplicity\000ProjektasTut\Tutorial1\MVVMTutorial\MVVMTutorial\App.xaml
-11151548125
+E:\TestProjects\MVVMTutorial-master\Tutorial1\MVVMTutorial\MVVMTutorial\App.xaml
+7-1254441093
 
-12-1717760149
+251219354877
 131569487696
-MainWindow.xaml;
+MainWindow.xaml;ResourceDictionary.xaml;Views\CustomerInfoView.xaml;Styles.xaml;Views\SwitchViews\HomeView.xaml;Views\SwitchViews\PlayView.xaml;Views\SwitchViews\WorkView.xaml;
 
 True
 
